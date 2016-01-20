@@ -14,7 +14,7 @@ public class LoginPage extends Page {
     @FindBy(xpath = "//input[@id='shop_user_pass']")
     private WebElement inputPassword;
 
-    @FindBy(xpath = "//input[@value='войти на сайт']")
+    @FindBy(xpath = "//form[@id='login']//input[@class='button nice_button']")
     private WebElement buttonSubmit;
 
     @FindBy(xpath = "//div[@id='perechenlogin']//a[2]")
